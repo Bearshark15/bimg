@@ -1,6 +1,7 @@
 include "../../Premake/common.lua"
 
 project "bimg"
+	location "."
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++20"
